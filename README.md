@@ -119,9 +119,11 @@ networks:
 * docker-compose.yml **целиком**;
 * скриншот команды docker ps после запуске docker-compose.yml;
 
-`![docker ps](https://github.com//image.png)`
+`![docker ps](https://github.com/DefAKAAlex/netology-hw-6_4.git/img/ps.png)`
 * скриншот графика, постоенного на основе вашей метрики.
-
+`![grafik](https://github.com/DefAKAAlex/netology-hw-6_4.git/img/metrik-name.png)`
+`![grafik](https://github.com/DefAKAAlex/netology-hw-6_4.git/img/dashboard.png)`
+``` я немного поиграл со значением метрики...```
 ---
 
 ### Задание 8
@@ -132,6 +134,7 @@ networks:
 
 В качестве решения приложите скриншот консоли с проделанными действиями.
 
-docker rm -f $(docker ps -a -q)
+```docker rm -f $(docker ps -a -q)```
+`![off](https://github.com/DefAKAAlex/netology-hw-6_4.git/img/off.png)`
 
 ---
