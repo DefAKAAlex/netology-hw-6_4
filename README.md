@@ -6,7 +6,10 @@
 
 Установите Docker Compose и опишите, для чего он нужен и как может улучшить лично вашу жизнь.
 
-```Compose - это инструмент для удобного управлением контейнерами, общая среда, которая через файлы конфигурации гибко настраивается.
+```
+
+Compose - это инструмент для удобного управлением контейнерами, общая среда, которая через файлы конфигурации гибко настраивается.
+
 Я честно пока не смог придумать, зачем он мне нужен, потому как в моей работе пока даже нет необходимости работы самого Докера.
 ```
 ---
@@ -99,15 +102,20 @@ networks:
 * docker-compose.yml **целиком**;
 * скриншот команды docker ps после запуске docker-compose.yml;
 
-`![docker ps](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/ps.png)`
+
+![docker ps](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/ps.png)
+![](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/compuse_up.png)
 
 * скриншот графика, постоенного на основе вашей метрики.
 
-`![grafik](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/metrik-name.png)`
+![grafik](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/metrik-name.png)
 
-`![grafik](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/dashboard.png)`
+![grafik](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/dashboard.png)
 
-``` я немного поиграл со значением метрики...```
+```
+я немного поиграл со значением метрики...
+
+```
 ---
 
 ### Задание 8
@@ -119,6 +127,6 @@ networks:
 В качестве решения приложите скриншот консоли с проделанными действиями.
 
 ```docker rm -f $(docker ps -a -q)```
-`![off](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/off.png)`
+![off](https://github.com/DefAKAAlex/netology-hw-6_4/blob/main/img/off.png)
 
 ---
